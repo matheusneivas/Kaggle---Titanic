@@ -1,25 +1,42 @@
-# 🛳️ Titanic - Desafio de Classificação
+# 🤖 Desafios Kaggle – Portfólio de Projetos
 
-Este notebook aborda o clássico desafio do Kaggle "Titanic: Machine Learning from Disaster", com foco em prever a sobrevivência de passageiros com base em variáveis como idade, sexo, classe, entre outras.
+Este repositório reúne os principais desafios que resolvi na plataforma [Kaggle](https://www.kaggle.com), com foco em desenvolvimento de habilidades em ciência de dados, análise exploratória e machine learning. Os projetos foram realizados em Python com uso de bibliotecas como Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, XGBoost e outros.
 
-## 📌 Objetivo
-Prever quais passageiros sobreviveram ao naufrágio do Titanic usando técnicas de classificação supervisionada.
+---
 
-## 🧠 Técnicas Utilizadas
-- Análise exploratória de dados (EDA) com Pandas e Seaborn
-- Pré-processamento (tratamento de nulos, encoding de variáveis categóricas)
-- Modelos de machine learning:
-  - Regressão Logística
-  - Random Forest
-  - XGBoost
-- Avaliação com acurácia e matriz de confusão
+## 📚 Projetos
 
-## 📊 Resultados
-O melhor modelo obteve uma acurácia de **X%** na base de teste pública do Kaggle.
+### 1. 🛳️ Titanic – Previsão de Sobrevivência
+**Objetivo:** Classificar quais passageiros sobreviveram ao naufrágio do Titanic.  
+**Técnicas:** EDA, Regressão Logística, Random Forest, XGBoost.  
+🔗 [Veja o projeto](./titanic)
 
-## 📁 Arquivos
-- `titanic.ipynb`: Notebook completo com EDA, modelagem e avaliação.
-- `README.md`: Este arquivo com informações resumidas do projeto.
+---
 
-## 📎 Fonte
-Desafio disponível em: [Kaggle Titanic Competition](https://www.kaggle.com/competitions/titanic)
+### 2. 💳 Credit Default – Previsão de Inadimplência
+**Objetivo:** Prever se um cliente irá ou não pagar sua dívida.  
+**Técnicas:** Limpeza de dados, Regressão Logística, Random Forest, Gradient Boosting.  
+🔗 [Veja o projeto](./credit-default)
+
+---
+
+### 3. 🏠 House Prices – Previsão de Preços de Casas
+**Objetivo:** Prever o preço final de residências com base em atributos como tamanho, localização, ano, etc.  
+**Técnicas:** EDA, One-Hot Encoding, Regressão Linear, XGBoost.  
+🔗 [Veja o projeto](./house-prices)
+
+---
+
+## 🛠️ Tecnologias e Bibliotecas Utilizadas
+- Python 3.x
+- Pandas, NumPy, Matplotlib, Seaborn
+- Scikit-learn
+- XGBoost
+- Jupyter/Colab Notebooks
+
+---
+
+## 🚀 Como Usar
+1. Clone este repositório:
+```bash
+git clone https://github.com/seu-usuario/kaggle-desafios.git
